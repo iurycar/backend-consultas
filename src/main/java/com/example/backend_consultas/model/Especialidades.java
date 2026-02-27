@@ -1,4 +1,4 @@
-package com.fiap.ec.backend_consultas.model;
+package com.example.backend_consultas.model;
 import jakarta.persistence.*;
 
 @Entity
