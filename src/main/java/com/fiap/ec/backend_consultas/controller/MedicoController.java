@@ -23,7 +23,7 @@ public class MedicoController {
         return service.buscarPorId(id);
     }
 
-    @PostMapping()
+    @PostMapping
     public Medico salvar(@RequestBody Medico medico) {
         return service.salvar(medico);
     }

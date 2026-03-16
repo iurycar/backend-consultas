@@ -17,7 +17,8 @@ public class MedicoService {
     }
 
     public Medico buscarPorId(Long id) {
-        return repository.findById(id).orElseThrow(() -> new RuntimeException("Médico não encontrado."));
+        return repository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Médico não encontrado."));
     }
 
     public Medico salvar(Medico medico) {

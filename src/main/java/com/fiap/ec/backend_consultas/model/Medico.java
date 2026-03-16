@@ -14,6 +14,9 @@ public class Medico {
     private Especialidade especialidade;
     private Boolean ativo;
 
+    public Medico(){
+    }
+
     public Medico(Long id, String nome, String crm, Especialidade especialidade, Boolean ativo) {
         this.id = id;
         this.nome = nome;
