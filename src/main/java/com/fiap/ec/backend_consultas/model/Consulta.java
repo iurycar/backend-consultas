@@ -40,12 +40,12 @@ public class Consulta {
 
     public Consulta(Medico medico, Paciente paciente, LocalDateTime dataHora,
     String status, Double valor, String observacoes) {
-    this.medico = medico;
-    this.paciente = paciente;
-    this.dataHora = dataHora;
-    this.status = status;
-    this.valor = valor;
-    this.observacoes = observacoes;
+        this.medico = medico;
+        this.paciente = paciente;
+        this.dataHora = dataHora;
+        this.status = status;
+        this.valor = valor;
+        this.observacoes = observacoes;
     }
 
     public Long getId() { return id; }
