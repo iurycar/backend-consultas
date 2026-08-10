@@ -22,8 +22,13 @@ public class Paciente {
 
     public Paciente() {
     }
-    public Paciente(String nome, String cpf, String email,
-                    String telefone, LocalDate dataNascimento, Boolean ativo) {
+    public Paciente(
+        String nome, 
+        String cpf, 
+        String email, 
+        String telefone, 
+        LocalDate dataNascimento, 
+        Boolean ativo) {
         this.nome = nome;
         this.cpf = cpf;
         this.email = email;
@@ -33,6 +38,7 @@ public class Paciente {
     }
 
     public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
     public String getNome() { return nome; }
     public String getCpf() { return cpf; }
     public String getEmail() { return email; }
