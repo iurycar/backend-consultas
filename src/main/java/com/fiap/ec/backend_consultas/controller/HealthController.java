@@ -12,8 +12,8 @@ import java.util.Map;
 @CrossOrigin
 public class HealthController {
 
- @GetMapping
- public Map<String, String> health() {
- return Map.of("status", "UP");
- }
+    @GetMapping
+    public Map<String, String> health() {
+    return Map.of("status", "UP");
+    }
 }
